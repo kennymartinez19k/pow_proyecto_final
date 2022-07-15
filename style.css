@@ -1,0 +1,82 @@
+.container{
+    width: 90%;
+    margin: 20px auto;
+}
+.nav{
+    justify-content: flex-end;
+    background: cadetblue;
+}
+.nav-item a{
+    color: white;
+    font-size: 16px;
+}
+.container-books-available{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-books-available .card{
+    margin: 0px 10px;
+    box-shadow: 0px 1px 5px #999;
+}
+.container-books-available .card-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.container-books-available .card-text{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+/* Author */
+
+.container-author{
+    padding: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.container-author .card{
+    margin: 20px 0px;
+    box-shadow: 0px 1px 5px #999;
+}
+
+.container-author .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-author img{
+    width: 40%;
+}
+.container-author .card-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.container-author .card-text{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+/* Form */
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.container-form form{
+    width: 50%;
+}
